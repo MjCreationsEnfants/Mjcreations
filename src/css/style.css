@@ -1,0 +1,33 @@
+body {
+    background-color: #EFE7DA;
+}
+
+header{
+    text-align: center;
+}
+
+.link {
+    width: 300px;
+    margin: auto;
+}
+
+a {
+    display: block;
+    width: 100%;
+    background-color: #F6F5EC;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #B29079;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+@media (max-width: 400px) {
+    .link {
+        width: 80%;
+    }
+}
